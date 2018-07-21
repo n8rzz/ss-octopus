@@ -1,96 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ss-octopus</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>ss-octopus</title>
 
-    <style>
-        li {
-            list-style: none;
-        }
+        <link rel="stylesheet" href="/main.css?v=1">
+        <style>
+            * {
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>ss-octopus</h1>
 
-        .hlist {
-            display: flex;
-        }
+        <div class="container">
+            <ul class="hlist">
+                <li>
+                    <div class="swatch" style="background-color: #b3b3b3">
+                        #b3b3b3
+                    </div>
+                </li>
+                <li>
+                    <div class="swatch" style="background-color: #608b4e">
+                        #608b4e
+                    </div>
+                </li>
+                <li>
+                    <div class="swatch" style="background-color: #b5cea8">
+                        #b5cea8
+                    </div>
+                </li>
+                <li>
+                    <div class="swatch" style="background-color: #6d6d6d">
+                        #6d6d6d
+                    </div>
+                </li>
+                <li>
+                    <div class="swatch" style="background-color: #448C27">
+                        #448C27
+                    </div>
+                </li>
+                <li>
+                    <div class="swatch" style="background-color: #569cd6">
+                        #569cd6
+                    </div>
+                </li>
+                <li>
+                    <div class="swatch" style="background-color: #d10000">
+                        #d10000
+                    </div>
+                </li>
+            </ul>
+        </div>
 
-        .hlist > li + li {
-            margin-left: 10px;
-        }
 
-        .swatch {
-            height: 100px;
-            width: 100px;
-        }
+        <div class="container">
+            <h5>original palette</h5>
 
-        .swatch-sm {
-            height: 50px;
-            width: 50px;
-        }
-    </style>
-</head>
-<body>
-    <h1>ss-octopus</h1>
+            <ul class="hlist">
+                <li>
+                    <div class="swatch swatch-sm" style="background-color: #d4d4d4">
+                        #d4d4d4
+                    </div>
+                </li>
+                <li>
+                    <div class="swatch swatch-sm" style="background-color: #b5cea8">
+                        #b5cea8
+                    </div>
+                </li>
+                <li>
+                    <div class="swatch swatch-sm" style="background-color: #f44747">
+                        #f44747
+                    </div>
+                </li>
+                <li>
+                    <div class="swatch swatch-sm" style="background-color: #d7ba7d">
+                        #d7ba7d
+                    </div>
+                </li>
+                <li>
+                    <div class="swatch swatch-sm" style="background-color: #569cd6">
+                        #569cd6
+                    </div>
+                </li>
+                <li>
+                    <div class="swatch swatch-sm" style="background-color: #6d6d6d">
+                        #6d6d6d
+                    </div>
+                </li>
+            </ul>
+        </div>
 
-    <ul class="hlist">
-        <li>
-            <div class="swatch" style="background-color: #b3b3b3">
-                #b3b3b3
-            </div>
-        </li>
-        <li>
-            <div class="swatch" style="background-color: #608b4e">
-                #608b4e
-            </div>
-        </li>
-        <li>
-            <div class="swatch" style="background-color: #448C27">
-                #448C27
-            </div>
-        </li>
-        <li>
-            <div class="swatch" style="background-color: #6d6d6d">
-                #448C27
-            </div>
-        </li>
-    </ul>
-
-    <hr />
-
-    <h5>original palette</h5>
-    <ul class="hlist">
-        <li>
-            <div class="swatch swatch-sm" style="background-color: #d4d4d4">
-                #d4d4d4
-            </div>
-        </li>
-        <li>
-            <div class="swatch swatch-sm" style="background-color: #b5cea8">
-                #b5cea8
-            </div>
-        </li>
-        <li>
-            <div class="swatch swatch-sm" style="background-color: #f44747">
-                #f44747
-            </div>
-        </li>
-        <li>
-            <div class="swatch swatch-sm" style="background-color: #d7ba7d">
-                #d7ba7d
-            </div>
-        </li>
-        <li>
-            <div class="swatch swatch-sm" style="background-color: #569cd6">
-                #569cd6
-            </div>
-        </li>
-        <li>
-            <div class="swatch swatch-sm" style="background-color: #6d6d6d">
-                #6d6d6d
-            </div>
-        </li>
-    </ul>
-
-    <script src="/script/bundle.js"></script>
-</body>
+        <div class="container">
+            <h3>settings colors</h3>
+            <ul class="hlist">
+                <li>
+                    <div class="swatch swatch-sm" style="background-color: #007acc">
+                        #007acc
+                    </div>
+                </li>
+                <li>
+                    <div class="swatch swatch-sm" style="background-color: #608b4e">
+                        #608b4e
+                    </div>
+                </li>
+                <li>
+                    <div class="swatch swatch-sm" style="background-color: #d16969">
+                        #d16969
+                    </div>
+                </li>
+                <li>
+                    <div class="swatch swatch-sm" style="background-color: #1e1e1e">
+                        #1e1e1e
+                    </div>
+                </li>
+                <li>
+                    <div class="swatch swatch-sm" style="background-color: #d4d4d4">
+                        #d4d4d4
+                    </div>
+                </li>
+                <li>
+                    <div class="swatch swatch-sm" style="background-color: #3a3d41">
+                        #3a3d41
+                    </div>
+                </li>
+                <li>
+                    <div class="swatch swatch-sm" style="background-color: #add6ff26">
+                        #add6ff26
+                    </div>
+                </li>
+                <li>
+                    <div class="swatch swatch-sm" style="background-color: #d10000">
+                        #d10000
+                    </div>
+                </li>
+                <li>
+                    <div class="swatch swatch-sm" style="background-color: #ff0000">
+                        #ff0000
+                    </div>
+                </li>
+                <li>
+                    <div class="swatch swatch-sm" style="background-color: #404040">
+                        #404040
+                    </div>
+                </li>
+                <li>
+                    <div class="swatch swatch-sm" style="background-color: #808080">
+                        #808080
+                    </div>
+                </li>
+                <li>
+                    <div class="swatch swatch-sm" style="background-color: #d7ba7d">
+                        #d7ba7d
+                    </div>
+                </li>
+                <li>
+                    <div class="swatch swatch-sm" style="background-color: #383b3d">
+                        #383b3d
+                    </div>
+                </li>
+                <li>
+                    <div class="swatch swatch-sm" style="background-color: #bbbbbb">
+                        #bbbbbb
+                    </div>
+                </li>
+                <li>
+                    <div class="swatch swatch-sm" style="background-color: #222222">
+                        #222222
+                    </div>
+                </li>
+                <li>
+                    <div class="swatch swatch-sm" style="background-color: #c6bf41">
+                        #c6bf41
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </body>
 </html>

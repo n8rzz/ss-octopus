@@ -1,22 +1,32 @@
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 li {
     list-style: none;
 }
 
-.hlist {
-    display: flex;
+.container {
+    max-width: 800px;
 }
 
-.hlist > li + li {
-    margin-left: 10px;
+.hlist {
+    align-items: center;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.hlist > li {
+    padding: 5px;
 }
 
 .swatch {
     height: 100px;
-    margin-left: 10px;
     width: 100px;
 }
 
 .swatch-sm {
     height: 50px;
-    width: 50px;
+    width: 75px;
 }

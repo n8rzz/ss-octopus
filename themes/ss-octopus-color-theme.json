@@ -34,26 +34,64 @@
 			"settings": {
 				"foreground": "#6d6d6d"
 			}
+		},
+		{
+			"name": "Numbers, Characters",
+			"scope": [
+				"constant.numeric",
+				"constant.character",
+				"constant.keyword",
+				"constant"
+			],
+			"settings": {
+				"foreground": "#b5cea8"
+			}
+		},
+		{
+			"name": "Global definitions",
+			"scope": "entity.name",
+			"settings": {
+				"foreground": "#569cd6"
+			}
+		},
+		{
+			"name": "Punctuation",
+			"scope": "punctuation",
+			"settings": {
+				"foreground": "#448C27"
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": "invalid",
+			"settings": {
+				"foreground": "#d10000"
+			}
+		},
+		{
+			"scope": "meta.diff.header",
+			"settings": {
+				"foreground": "#569cd6"
+			}
 		}
 	],
 	"colors": {
-		"activityBarBadge.background": "#007acc",
-		"diffEditor.insertedTextBorder": "#608b4e",
-		"diffEditor.removedTextBorder": "#d16969",
+		"activityBarBadge.background": "#569cd6",
+		"activityBarBadge.foreground": "#222222",
 		"editor.background": "#1e1e1e",
 		"editor.foreground": "#d4d4d4",
 		"editor.inactiveSelectionBackground": "#3a3d41",
 		"editor.selectionHighlightBackground": "#add6ff26",
 		"editorCursor.foreground": "#d10000",
 		"editorGutter.addedBackground": "#608b4e",
-		"editorGutter.deletedBackground": "#d16969",
-		"editorGutter.modifiedBackground": "#d7ba7d",
+		"editorGutter.deletedBackground": "#d10000",
+		"editorGutter.modifiedBackground": "#c6bf41",
 		"editorIndentGuide.activeBackground": "#ff0000",
 		"editorIndentGuide.background": "#404040",
 		"editorOverviewRuler.addedForeground": "#608b4e",
-		"editorOverviewRuler.deletedForeground": "#d16969",
+		"editorOverviewRuler.deletedForeground": "#d10000",
 		"editorOverviewRuler.modifiedForeground": "#d7ba7d",
-		"gitDecoration.conflictingResourceForeground": "#d16969",
+		"gitDecoration.conflictingResourceForeground": "#d10000",
 		"gitDecoration.deletedResourceForeground": "#d7ba7d",
 		"gitDecoration.ignoredResourceForeground": "#808080",
 		"gitDecoration.modifiedResourceForeground": "#608b4e",
