@@ -1,0 +1,22 @@
+{
+    "name": "ss-octopus",
+    "displayName": "ss-octopus",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "n8rzz",
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "ss-octopus",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ss-octopus-color-theme.json"
+            }
+        ]
+    }
+}

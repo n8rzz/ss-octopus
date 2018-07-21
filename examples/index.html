@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ss-octopus</title>
+
+    <style>
+        li {
+            list-style: none;
+        }
+
+        .hlist {
+            display: flex;
+        }
+
+        .hlist > li + li {
+            margin-left: 10px;
+        }
+
+        .swatch {
+            height: 100px;
+            width: 100px;
+        }
+
+        .swatch-sm {
+            height: 50px;
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>ss-octopus</h1>
+
+    <ul class="hlist">
+        <li>
+            <div class="swatch" style="background-color: #b3b3b3">
+                #b3b3b3
+            </div>
+        </li>
+        <li>
+            <div class="swatch" style="background-color: #608b4e">
+                #608b4e
+            </div>
+        </li>
+        <li>
+            <div class="swatch" style="background-color: #448C27">
+                #448C27
+            </div>
+        </li>
+        <li>
+            <div class="swatch" style="background-color: #6d6d6d">
+                #448C27
+            </div>
+        </li>
+    </ul>
+
+    <hr />
+
+    <h5>original palette</h5>
+    <ul class="hlist">
+        <li>
+            <div class="swatch swatch-sm" style="background-color: #d4d4d4">
+                #d4d4d4
+            </div>
+        </li>
+        <li>
+            <div class="swatch swatch-sm" style="background-color: #b5cea8">
+                #b5cea8
+            </div>
+        </li>
+        <li>
+            <div class="swatch swatch-sm" style="background-color: #f44747">
+                #f44747
+            </div>
+        </li>
+        <li>
+            <div class="swatch swatch-sm" style="background-color: #d7ba7d">
+                #d7ba7d
+            </div>
+        </li>
+        <li>
+            <div class="swatch swatch-sm" style="background-color: #569cd6">
+                #569cd6
+            </div>
+        </li>
+        <li>
+            <div class="swatch swatch-sm" style="background-color: #6d6d6d">
+                #6d6d6d
+            </div>
+        </li>
+    </ul>
+
+    <script src="/script/bundle.js"></script>
+</body>
+</html>

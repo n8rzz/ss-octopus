@@ -1,0 +1,66 @@
+{
+	"name": "ss-octopus",
+	"type": "dark",
+	"tokenColors": [
+		{
+			"name": "Comments",
+			"scope": [
+				"comment",
+				"comment.block",
+				"comment.line",
+			],
+			"settings": {
+				"foreground": "#b3b3b3"
+			}
+		},
+		{
+			"name": "Docblock Comments",
+			"scope": [
+				"comment.block.documentation.js",
+				"comment.block.documentation.ts",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#608b4e"
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": [
+				"string",
+				"string.regexp",
+				"constant.other.symbol"
+			],
+			"settings": {
+				"foreground": "#6d6d6d"
+			}
+		}
+	],
+	"colors": {
+		"activityBarBadge.background": "#007acc",
+		"diffEditor.insertedTextBorder": "#608b4e",
+		"diffEditor.removedTextBorder": "#d16969",
+		"editor.background": "#1e1e1e",
+		"editor.foreground": "#d4d4d4",
+		"editor.inactiveSelectionBackground": "#3a3d41",
+		"editor.selectionHighlightBackground": "#add6ff26",
+		"editorCursor.foreground": "#d10000",
+		"editorGutter.addedBackground": "#608b4e",
+		"editorGutter.deletedBackground": "#d16969",
+		"editorGutter.modifiedBackground": "#d7ba7d",
+		"editorIndentGuide.activeBackground": "#ff0000",
+		"editorIndentGuide.background": "#404040",
+		"editorOverviewRuler.addedForeground": "#608b4e",
+		"editorOverviewRuler.deletedForeground": "#d16969",
+		"editorOverviewRuler.modifiedForeground": "#d7ba7d",
+		"gitDecoration.conflictingResourceForeground": "#d16969",
+		"gitDecoration.deletedResourceForeground": "#d7ba7d",
+		"gitDecoration.ignoredResourceForeground": "#808080",
+		"gitDecoration.modifiedResourceForeground": "#608b4e",
+		"gitDecoration.untrackedResourceForeground": "#d7ba7d",
+		"list.dropBackground": "#383b3d",
+		"sideBarTitle.foreground": "#bbbbbb",
+		"statusBar.background": "#222222",
+		"statusBar.foreground": "#c6bf41"
+	},
+}

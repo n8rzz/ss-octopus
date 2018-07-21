@@ -1,0 +1,26 @@
+$SPACING_1X: 10px;
+$BASE_SIZE: 100px;
+$HALF_SIZE: 50px;
+
+li {
+    list-style: none;
+}
+
+.hlist {
+    display: flex;
+}
+
+.hlist > li + li {
+    margin-left: 10px;
+}
+
+.swatch {
+    height: $BASE_SIZE;
+    margin-left: $SPACING_1X;
+    width: $BASE_SIZE;
+}
+
+.swatch-sm {
+    height: $HALF_SIZE;
+    width: $HALF_SIZE;
+}
