@@ -1,106 +1,129 @@
 {
-    "name": "ss-octopus",
-    "type": "dark",
-    "tokenColors": [
-        {
-            "name": "Comments",
-            "scope": [
-                "comment",
-                "comment.block",
-                "comment.line",
-                "punctuation.definition.comment"
-            ],
-            "settings": {
-                "foreground": "#6d6d6d"
-            }
-        },
-        {
-            "name": "Docblock Comments",
-            "scope": [
-                "comment.block.documentation.js",
-                "comment.block.documentation.ts"
-            ],
-            "settings": {
-                "foreground": "#608b4e"
-            }
-        },
-        {
-            "name": "Strings",
-            "scope": [
-                "string",
-                "string.regexp",
-                "constant.other.symbol"
-            ],
-            "settings": {
-                "foreground": "#6d6d6d"
-            }
-        },
-        {
-            "name": "Numbers, Characters",
-            "scope": [
-                "constant",
-                "constant.numeric",
-                "constant.character",
-                "constant.keyword"
-            ],
-            "settings": {
-                "foreground": "#b5cea8"
-            }
-        },
-        {
-            "name": "Global definitions",
-            "scope": "entity.name",
-            "settings": {
-                "foreground": "#569cd6"
-            }
-        },
-        {
-            "name": "Punctuation",
-            "scope": "punctuation",
-            "settings": {
-                "foreground": "#448C27"
-            }
-        },
-        {
-            "name": "Invalid",
-            "scope": "invalid",
-            "settings": {
-                "foreground": "#d10000"
-            }
-        },
-        {
-            "scope": "meta.diff.header",
-            "settings": {
-                "foreground": "#569cd6"
-            }
-        }
-
-
-    ],
-    "colors": {
-        "activityBarBadge.background": "#569cd6",
-        "activityBarBadge.foreground": "#1e1e1e",
-        "editor.background": "#1e1e1e",
-        "editor.foreground": "#d4d4d4",
-        "editor.inactiveSelectionBackground": "#3a3d41",
-        "editor.selectionHighlightBackground": "#add6ff26",
-        "editorCursor.foreground": "#d10000",
-        "editorGutter.addedBackground": "#608b4e",
-        "editorGutter.deletedBackground": "#d10000",
-        "editorGutter.modifiedBackground": "#c6bf41",
-        "editorIndentGuide.activeBackground": "#d10000",
-        "editorIndentGuide.background": "#404040",
-        "editorOverviewRuler.addedForeground": "#608b4e",
-        "editorOverviewRuler.deletedForeground": "#d10000",
-        "editorOverviewRuler.modifiedForeground": "#d7ba7d",
-        "gitDecoration.conflictingResourceForeground": "#d10000",
-        "gitDecoration.deletedResourceForeground": "#d7ba7d",
-        "gitDecoration.ignoredResourceForeground": "#808080",
-        "gitDecoration.modifiedResourceForeground": "#608b4e",
-        "gitDecoration.untrackedResourceForeground": "#d7ba7d",
-        "list.dropBackground": "#383b3d",
-        "sideBarTitle.foreground": "#bbbbbb",
-        "statusBar.background": "#222222",
-        "statusBar.foreground": "#c6bf41"
+  "name": "ss-octopus",
+  "type": "dark",
+  "tokenColors": [
+    {
+      "name": "Global settings",
+      "settings": {
+        "background": "#1e1e1e",
+        "foreground": "#d4d4d4"
+      }
     },
+    {
+      "name": "Global definitions",
+      "scope": "entity.name",
+      "settings": {
+        "foreground": "#569cd6"
+      }
+    },
+    {
+      "name": "Comments",
+      "scope": [
+        "comment",
+        "comment.block",
+        "comment.line",
+        "support.type.property-name.json",
+        "support.type.property-name.css",
+        "variable.object.property",
+        "meta.object-literal.key"
+      ],
+      "settings": {
+        "foreground": "#6d6d6d"
+      }
+    },
+    {
+      "name": "Docblock Comments",
+      "scope": [
+        "comment.block.documentation",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#608b4e"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": [
+        "string",
+        "string.regexp",
+        "constant.other.symbol"
+      ],
+      "settings": {
+        "foreground": "#6d6d6d"
+      }
+    },
+    {
+      "name": "Numbers, Characters",
+      "scope": [
+        "constant",
+        "constant.numeric",
+        "constant.character",
+        "constant.keyword"
+      ],
+      "settings": {
+        "foreground": "#b5cea8"
+      }
+    },
+    {
+      "name": "Punctuation",
+      "scope": "punctuation",
+      "settings": {
+        "foreground": "#448C27"
+      }
+    },
+    {
+      "name": "Invalid",
+      "scope": "invalid",
+      "settings": {
+        "foreground": "#d10000"
+      }
+    },
+    {
+      "scope": "meta.diff.header",
+      "settings": {
+        "foreground": "#569cd6"
+      }
+    },
+
+    {
+      "scope": [
+        "support.type",
+      ],
+      "settings": {
+        "foreground": "#c6bf41"
+      }
+    },
+    {
+      "scope": [
+        "constant.language.null"
+      ],
+      "settings": {
+        "foreground": "#6d6d6d",
+      }
+    }
+  ],
+  "colors": {
+    "activityBarBadge.background": "#569cd6",
+    "activityBarBadge.foreground": "#1e1e1e",
+    "editor.inactiveSelectionBackground": "#3a3d41",
+    "editor.selectionHighlightBackground": "#add6ff26",
+    "editorCursor.foreground": "#d10000",
+    "editorGutter.addedBackground": "#608b4e",
+    "editorGutter.deletedBackground": "#d10000",
+    "editorGutter.modifiedBackground": "#c6bf41",
+    "editorIndentGuide.activeBackground": "#d10000",
+    "editorIndentGuide.background": "#404040",
+    "editorOverviewRuler.addedForeground": "#608b4e",
+    "editorOverviewRuler.deletedForeground": "#d10000",
+    "editorOverviewRuler.modifiedForeground": "#d7ba7d",
+    "gitDecoration.conflictingResourceForeground": "#d10000",
+    "gitDecoration.deletedResourceForeground": "#d7ba7d",
+    "gitDecoration.ignoredResourceForeground": "#808080",
+    "gitDecoration.modifiedResourceForeground": "#608b4e",
+    "gitDecoration.untrackedResourceForeground": "#d7ba7d",
+    "list.dropBackground": "#383b3d",
+    "sideBarTitle.foreground": "#bbbbbb",
+    "statusBar.background": "#222222",
+    "statusBar.foreground": "#c6bf41"
+  }
 }
