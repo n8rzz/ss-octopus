@@ -14,3 +14,10 @@ You can author your README using Visual Studio Code.  Here are some useful edito
 
 
 * Borrows from methodology called out in [Alabaster](https://github.com/tonsky/vscode-theme-alabaster/blob/master/theme/alabaster-color-theme.json)
+
+* Borrows the following example files from [Night Owl](https://github.com/sdras/night-owl-vscode-theme)
+
+- `angular.component.ts`
+- `react.js`
+- `ruby.rb`
+- `yml.yml`
