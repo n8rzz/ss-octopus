@@ -10,95 +10,115 @@
       }
     },
     {
-      "name": "Global definitions",
-      "scope": "entity.name",
+      "name": "Primary",
+      "scope": [
+        "entity.name",
+        "entity.name.function",
+        "entity.other.attribute-name.class.css",
+        "keyword.other.special-method.dockerfile",
+        "meta.diff.header",
+        "meta.selector.css",
+        "new.expr"
+      ],
       "settings": {
         "foreground": "#569cd6"
       }
     },
     {
-      "name": "Comments",
-      "scope": [
-        "comment",
-        "comment.block",
-        "comment.line",
-        "support.type.property-name.json",
-        "support.type.property-name.css",
-        "variable.object.property",
-        "meta.object-literal.key"
-      ],
-      "settings": {
-        "foreground": "#6d6d6d"
-      }
-    },
-    {
-      "name": "Docblock Comments",
+      "name": "Secondary",
       "scope": [
         "comment.block.documentation",
-        "punctuation.definition.comment"
+        "entity.name.type.enum",
+        "entity.name.type.interface",
+        "meta.brace",
+        "punctuation.definition.comment",
+        "punctuation",
       ],
       "settings": {
         "foreground": "#608b4e"
       }
     },
     {
-      "name": "Strings",
+      "name": "Tertiary",
       "scope": [
+        "comment",
+        "comment.block",
+        "comment.line",
+        "constant.language.null",
+        "constant.other.symbol",
+        "meta.class.ruby",
+        "meta.module.ruby",
+        "meta.object-literal.key",
         "string",
         "string.regexp",
-        "constant.other.symbol"
+        "support.type.property-name.json",
+        "support.type.property-name.css",
+        "variable.object.property",
+        "variable.parameter.function"
       ],
       "settings": {
         "foreground": "#6d6d6d"
       }
     },
     {
-      "name": "Numbers, Characters",
+      "name": "Emphasis",
+      "scope": [],
+      "settings": {}
+    },
+    {
+      "name": "Subtle",
       "scope": [
         "constant",
         "constant.numeric",
         "constant.character",
-        "constant.keyword"
+        "constant.keyword",
+        "support.type"
+      ],
+      "settings": {
+        "foreground": "#d4d4d4"
+      }
+    },
+    {
+      "name": "Accent 1",
+      "scope": [
+        "entity.other.inherited-class",
+        "support.function.go"
       ],
       "settings": {
         "foreground": "#b5cea8"
       }
     },
     {
-      "name": "Punctuation",
-      "scope": "punctuation",
+      "name": "Accent 2",
+      "scope": [
+        "keyword.control.export",
+        "keyword.control.flow",
+        "keyword.control.go",
+        "keyword.control.ruby",
+        "keyword.control.start-block.ruby",
+        "variable.other.constant",
+        "variable.scss"
+      ],
+      "settings": {
+        "foreground": "#d7ba7d"
+      }
+    },
+    {
+      "name": "Accent 3",
+      "scope": [
+
+      ],
       "settings": {
         "foreground": "#448C27"
       }
     },
     {
       "name": "Invalid",
-      "scope": "invalid",
+      "scope": [
+        "invalid"
+      ],
       "settings": {
         "foreground": "#d10000"
-      }
-    },
-    {
-      "scope": "meta.diff.header",
-      "settings": {
-        "foreground": "#569cd6"
-      }
-    },
-
-    {
-      "scope": [
-        "support.type",
-      ],
-      "settings": {
-        "foreground": "#c6bf41"
-      }
-    },
-    {
-      "scope": [
-        "constant.language.null"
-      ],
-      "settings": {
-        "foreground": "#6d6d6d",
       }
     }
   ],

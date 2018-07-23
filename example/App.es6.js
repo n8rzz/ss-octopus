@@ -25,7 +25,9 @@ export class App {
         return this._init();
     }
 
-    _init() {
+    _init(nextState = {}) {
+        let name = 'threeve';
+        const speed = -23;
         this._aircraft = new AircraftController(initialState);
     }
 }

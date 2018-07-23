@@ -34,5 +34,9 @@ export class App {
         this._aircraft = new AircraftController(initialState);
     }
 
+    public hasDollarSign(value: string): boolean {
+        return value.indexOf('$') !== -1;
+    }
+
     private _onUpdate(): void {}
 }
