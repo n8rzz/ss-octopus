@@ -26,7 +26,7 @@
         "list.dropBackground": "#383b3d",
         "sideBarTitle.foreground": "#bbbbbb",
         "statusBar.background": "#222222",
-        "statusBar.foreground": "#c6bf41",
+        "statusBar.foreground": "#c6bf41"
     },
     "tokenColors": [
         {

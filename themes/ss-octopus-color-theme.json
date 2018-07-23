@@ -49,6 +49,7 @@
         "meta.class.ruby",
         "meta.module.ruby",
         "meta.object-literal.key",
+        "storage.modifier.ts",
         "string",
         "string.regexp",
         "support.type.property-name.json",
@@ -82,7 +83,8 @@
       "name": "Accent 1",
       "scope": [
         "entity.other.inherited-class",
-        "support.function.go"
+        "support.function.go",
+        "storage.type.function.arrow"
       ],
       "settings": {
         "foreground": "#b5cea8"
@@ -91,6 +93,7 @@
     {
       "name": "Accent 2",
       "scope": [
+        "keyword.control.def.ruby",
         "keyword.control.export",
         "keyword.control.flow",
         "keyword.control.go",
