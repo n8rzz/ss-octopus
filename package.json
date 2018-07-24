@@ -16,6 +16,11 @@
                 "label": "ss-octopus",
                 "uiTheme": "vs-dark",
                 "path": "./themes/ss-octopus-color-theme.json"
+            },
+            {
+                "label": "ss-octopus-base",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ss-octopus-color-theme-base.json"
             }
         ]
     }

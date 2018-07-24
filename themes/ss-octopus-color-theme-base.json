@@ -1,0 +1,273 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "type": "dark",
+  "tokenColors": [
+    {
+      "scope": "emphasis",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "strong",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "markup.underline",
+      "settings": {
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "scope": "markup.italic",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.variable",
+        "entity.other.attribute-name",
+        "keyword.operator",
+        "meta.definition.variable.name",
+        "meta.embedded",
+        "meta.object-literal.key",
+        "meta.structure.dictionary.key.python",
+        "meta.template.expression",
+        "source.coffee.embedded",
+        "source.groovy.embedded",
+        "storage.modifier.import.java",
+        "storage.modifier.package.java",
+        "support.function.git-rebase",
+        "support.type.property-name",
+        "support.type.vendored.property-name",
+        "support.variable",
+        "variable.css",
+        "variable.language.wildcard.java",
+        "variable.other.less",
+        "variable.scss",
+        "variable",
+      ],
+      "settings": {
+        "foreground": "#d4d4d4"
+      }
+    },
+    {
+      "scope": [
+        "beginning.punctuation.definition.quote.markdown",
+        "comment",
+        "entity.other.inherited-class",
+        "meta.return-type",
+        "meta.type.cast.expr",
+        "meta.type.new.expr",
+        "punctuation.definition.tag",
+        "storage.type.annotation.groovy",
+        "storage.type.annotation.java",
+        "storage.type.boolean.go",
+        "storage.type.byte.go",
+        "storage.type.cs",
+        "storage.type.generic.cs",
+        "storage.type.generic.groovy",
+        "storage.type.generic.java",
+        "storage.type.groovy",
+        "storage.type.java",
+        "storage.type.modifier.cs",
+        "storage.type.numeric.go",
+        "storage.type.object.array.groovy",
+        "storage.type.object.array.java",
+        "storage.type.parameters.groovy",
+        "storage.type.primitive.array.groovy",
+        "storage.type.primitive.array.java",
+        "storage.type.primitive.groovy",
+        "storage.type.primitive.java",
+        "storage.type.string.go",
+        "storage.type.token.java",
+        "storage.type.uintptr.go",
+        "storage.type.variable.cs",
+        "support.class",
+        "support.constant.dom",
+        "support.constant.json",
+        "support.constant.math",
+        "support.type",
+      ],
+      "settings": {
+        "foreground": "#608b4e"
+      }
+    },
+    {
+      "scope": [
+        "beginning.punctuation.definition.list.markdown",
+        "beginning.punctuation.definition.list.markdown",
+        "constant.character",
+        "constant.language",
+        "entity.name.tag",
+        "markup.bold",
+        "markup.changed",
+        "markup.heading",
+        "meta.diff.header",
+        "meta.preprocessor",
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end",
+        "punctuation.section.embedded.begin.php",
+        "punctuation.section.embedded.end.php",
+        "punctuation.section.embedded",
+        "storage.type",
+        "storage",
+        "token.info-token",
+        "variable.language",
+        "entity.name.class",
+        "new.expr",
+        "entity.name.function",
+      ],
+      "settings": {
+        "foreground": "#569cd6"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric",
+        "constant.sha.git-rebase",
+        "entity.name.type.interface",
+        "keyword.other.unit",
+        "markup.inserted",
+        "meta.preprocessor.numeric",
+        "meta.type.annotation.ts",
+        "storage.type.function.arrow",
+      ],
+      "settings": {
+        "foreground": "#99ca90"
+      }
+    },
+    {
+      "scope": [
+        "constant.character.escape",
+        "entity.name.tag.css",
+        "entity.other.attribute-name.attribute.scss",
+        "entity.other.attribute-name.class.css",
+        "entity.other.attribute-name.class.mixin.css",
+        "entity.other.attribute-name.id.css",
+        "entity.other.attribute-name.parent-selector.css",
+        "entity.other.attribute-name.pseudo-class.css",
+        "entity.other.attribute-name.pseudo-element.css",
+        "entity.other.attribute-name.scss",
+        "keyword.control.anchor.regexp",
+        "keyword.operator.or.regexp",
+        "keyword.operator.quantifier.regexp",
+        "meta.selector",
+        "source.css.less entity.other.attribute-name.id",
+        "support.constant.handlebars",
+        "support.function",
+      ],
+      "settings": {
+        "foreground": "#f7ef61"
+      }
+    },
+    {
+      "scope": [
+        "invalid",
+        "token.error-token"
+      ],
+      "settings": {
+        "foreground": "#d10000"
+      }
+    },
+    {
+      "scope": [
+        "markup.deleted",
+        "markup.inline.raw",
+        "meta.preprocessor.string",
+        "string",
+        "string.tag",
+        "string.value",
+        "support.constant.property-value",
+        "support.constant.font-name",
+        "support.constant.media-type",
+        "support.constant.media",
+        "constant.other.color.rgb-value",
+        "constant.other.rgb-value",
+        "support.constant.color",
+        "punctuation.definition.group.regexp",
+        "punctuation.definition.group.assertion.regexp",
+        "punctuation.definition.character-class.regexp",
+        "punctuation.character.set.begin.regexp",
+        "punctuation.character.set.end.regexp",
+        "keyword",
+        "support.other.parenthesis.regexp",
+        "support.class.console",
+        "support.function.go",
+        "support.function.kernel.ruby"
+      ],
+      "settings": {
+        "foreground": "#ce9178"
+      }
+    },
+    {
+      "scope": [
+        "string",
+        "string.regexp",
+        "keyword.control"
+      ],
+      "settings": {
+        "foreground": "#808080"
+      }
+    },
+    {
+      "scope": [
+        "constant.character.character-class.regexp",
+        "constant.character.set.regexp",
+        "constant.other.character-class.regexp",
+        "constant.other.character-class.set.regexp",
+        "constant.regexp",
+        "keyword.control.flow",
+        "storage.modifier",
+        "support.type.object.module.js",
+        "token.debug-token",
+      ],
+      "settings": {
+        "foreground": "#bbbbbb"
+      }
+    },
+    {
+      "scope": [
+        "token.warn-token",
+        "keyword.operator.negation.regexp",
+        "keyword.operator.cast",
+        "keyword.operator.expression",
+        "keyword.operator.instanceof",
+        "keyword.operator.logical.python",
+        "keyword.operator.new",
+        "keyword.operator.sizeof",
+        "variable.language.this"
+      ],
+      "settings": {
+        "foreground": "#9cdcfe"
+      }
+    }
+  ],
+  "colors": {
+    "activityBarBadge.background": "#569cd6",
+    "activityBarBadge.foreground": "#1e1e1e",
+    "editor.inactiveSelectionBackground": "#3a3d41",
+    "editor.selectionHighlightBackground": "#add6ff26",
+    "editorCursor.foreground": "#d10000",
+    "editorGutter.addedBackground": "#608b4e",
+    "editorGutter.deletedBackground": "#d10000",
+    "editorGutter.modifiedBackground": "#c6bf41",
+    "editorIndentGuide.activeBackground": "#d10000",
+    "editorIndentGuide.background": "#404040",
+    "editorOverviewRuler.addedForeground": "#608b4e",
+    "editorOverviewRuler.deletedForeground": "#d10000",
+    "editorOverviewRuler.modifiedForeground": "#d7ba7d",
+    "gitDecoration.conflictingResourceForeground": "#d10000",
+    "gitDecoration.deletedResourceForeground": "#d7ba7d",
+    "gitDecoration.ignoredResourceForeground": "#808080",
+    "gitDecoration.modifiedResourceForeground": "#608b4e",
+    "gitDecoration.untrackedResourceForeground": "#d7ba7d",
+    "list.dropBackground": "#383b3d",
+    "sideBarTitle.foreground": "#bbbbbb",
+    "statusBar.background": "#222222",
+    "statusBar.foreground": "#c6bf41"
+  }
+}

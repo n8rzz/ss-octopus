@@ -8,7 +8,9 @@ module ExampleModule
 
     def method
       puts 'doing stuff'
+
       yield if block_given?
+
       other_method(:arg)
     end
 
