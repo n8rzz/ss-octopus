@@ -29,7 +29,6 @@
     {
       "scope": [
         "beginning.punctuation.definition.quote.markdown",
-        "comment",
         "meta.return-type",
         "meta.type.cast.expr",
         "meta.type.new.expr",
@@ -61,7 +60,7 @@
         "support.constant.dom",
         "support.constant.json",
         "support.constant.math",
-        "support.type",
+        "support.type"
       ],
       "settings": {
         "foreground": "#608b4e"
@@ -74,7 +73,6 @@
         "keyword.operator",
         "meta.definition.variable.name",
         "meta.embedded",
-        "meta.object-literal.key",
         "meta.structure.dictionary.key.python",
         "source.coffee.embedded",
         "source.groovy.embedded",
@@ -143,39 +141,43 @@
         "source.css.less entity.other.attribute-name.id",
         "support.constant.handlebars",
         "support.function",
+        "variable.other.constant"
       ],
       "settings": {
-        "foreground": "#fffbb0"
+        "foreground": "#d7ba7d"
       }
     },
     {
       "scope": [
+        "constant.other.color.rgb-value",
+        "constant.other.rgb-value",
+        "keyword.control.flow",
+        "keyword.control.pseudo-method.ruby",
+        "keyword",
         "markup.deleted",
         "markup.inline.raw",
         "meta.preprocessor.string",
-        "string",
+        "punctuation.character.set.begin.regexp",
+        "punctuation.character.set.end.regexp",
+        "punctuation.definition.character-class.regexp",
+        "punctuation.definition.group.assertion.regexp",
+        "punctuation.definition.group.regexp",
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end",
+        "punctuation.section.embedded.begin.js",
+        "punctuation.section.embedded.end.js",
         "string.tag",
         "string.value",
-        "support.constant.property-value",
+        "string",
+        "support.class.console",
+        "support.constant.color",
         "support.constant.font-name",
         "support.constant.media-type",
         "support.constant.media",
-        "constant.other.color.rgb-value",
-        "constant.other.rgb-value",
-        "support.constant.color",
-        "punctuation.definition.group.regexp",
-        "punctuation.definition.group.assertion.regexp",
-        "punctuation.definition.character-class.regexp",
-        "punctuation.character.set.begin.regexp",
-        "punctuation.character.set.end.regexp",
-        "keyword",
-        "keyword.control.flow",
-        "support.other.parenthesis.regexp",
-        "support.class.console",
+        "support.constant.property-value",
         "support.function.go",
         "support.function.kernel.ruby",
-        "punctuation.definition.template-expression.begin",
-        "punctuation.definition.template-expression.end",
+        "support.other.parenthesis.regexp"
       ],
       "settings": {
         "foreground": "#ce9178"
@@ -204,11 +206,13 @@
         "constant.other.character-class.set.regexp",
         "constant.regexp",
         "keyword.control",
+        "meta.object-literal.key",
         "meta.template.expression",
         "storage.modifier",
         "storage.type.function.arrow",
         "support.type.object.module.js",
-        "token.debug-token"
+        "token.debug-token",
+        "variable.object.property"
       ],
       "settings": {
         "foreground": "#999999"
@@ -247,6 +251,14 @@
       ],
       "settings": {
         "foreground": "#d10000"
+      }
+    },
+    {
+      "scope": [
+        "comment"
+      ],
+      "settings": {
+        "foreground": "#6d5133"
       }
     }
   ],

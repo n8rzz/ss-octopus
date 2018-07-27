@@ -1,6 +1,7 @@
 module ExampleModule
   class ExampleClass::ScopeResolution < NewScope::Operator
 
+    # This is a comment in Ruby
     def initialize(options)
       @@class_var = options[:class]
       @instance_var = options[:instance]

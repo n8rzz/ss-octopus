@@ -6,6 +6,7 @@ h5 {
     color: #d4d4d4;
 }
 
+/* this is a comment in css */
 ul {
     margin: 0;
     padding: 0;
@@ -16,7 +17,7 @@ li {
 }
 
 .container {
-    width: 500px;
+    max-width: 500px;
 }
 
 .hlist {
@@ -31,12 +32,12 @@ li {
 
 .swatch {
     font-weight: 700;
-    height: 100px;
+    height: 75px;
     padding: 5px;
-    width: 100px;
+    width: 75px;
 }
 
 .swatch-sm {
     height: 50px;
-    width: 75px;
+    width: 50px;
 }
