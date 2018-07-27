@@ -12,6 +12,14 @@ li {
 
 .hlist > li + li {
     margin-left: 10px;
+
+    & a {
+        color: '#efefef';
+    }
+
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 .swatch {
@@ -24,3 +32,4 @@ li {
     height: $HALF_SIZE;
     width: $HALF_SIZE;
 }
+

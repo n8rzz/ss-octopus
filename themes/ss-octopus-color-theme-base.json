@@ -60,7 +60,9 @@
         "support.constant.dom",
         "support.constant.json",
         "support.constant.math",
-        "support.type"
+        "support.type",
+        "punctuation.definition.string.begin",
+        "punctuation.definition.string.end",
       ],
       "settings": {
         "foreground": "#608b4e"
@@ -98,6 +100,7 @@
         "beginning.punctuation.definition.list.markdown",
         "constant.character",
         "constant.language",
+        "entity.name.function",
         "entity.name.tag",
         "markup.bold",
         "markup.changed",
@@ -115,7 +118,6 @@
         "variable.language",
         "entity.name.class",
         "new.expr",
-        "entity.name.function",
         "entity.other.inherited-class",
       ],
       "settings": {
@@ -141,7 +143,8 @@
         "source.css.less entity.other.attribute-name.id",
         "support.constant.handlebars",
         "support.function",
-        "variable.other.constant"
+        "variable.other.constant",
+        "storage.type.class.jsdoc"
       ],
       "settings": {
         "foreground": "#d7ba7d"
@@ -211,8 +214,9 @@
         "storage.modifier",
         "storage.type.function.arrow",
         "support.type.object.module.js",
+        "meta.tag.inline.any.html",
         "token.debug-token",
-        "variable.object.property"
+        "variable.object.property",
       ],
       "settings": {
         "foreground": "#999999"
@@ -238,7 +242,9 @@
     {
       "scope": [
         "string.regexp",
-        "string"
+        "string",
+        "variable.other.jsdoc",
+        "meta.structure.dictionary.json.comments"
       ],
       "settings": {
         "foreground": "#606060"
@@ -258,11 +264,12 @@
         "comment"
       ],
       "settings": {
-        "foreground": "#6d5133"
+        "foreground": "#aba481"
       }
     }
   ],
   "colors": {
+		"editorGutter.background": "#1e1e1e",
     "activityBarBadge.background": "#569cd6",
     "activityBarBadge.foreground": "#1e1e1e",
     "editor.inactiveSelectionBackground": "#3a3d41",
@@ -284,6 +291,6 @@
     "list.dropBackground": "#383b3d",
     "sideBarTitle.foreground": "#bbbbbb",
     "statusBar.background": "#222222",
-    "statusBar.foreground": "#c6bf41"
+    "statusBar.foreground": "#c6bf41",
   }
 }

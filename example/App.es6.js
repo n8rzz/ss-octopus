@@ -47,6 +47,8 @@ export class App {
      * @param {any} nextState
      */
     _init(nextState = {}) {
+        // FIXME: this is something that should be fixed
+        // TODO: this is something that should be prioritized
         let name = 'threeve';
         const speed = -23;
         this._aircraft = new AircraftController(initialState);
