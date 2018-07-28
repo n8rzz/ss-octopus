@@ -33,28 +33,9 @@
         "meta.type.cast.expr",
         "meta.type.new.expr",
         "punctuation.definition.tag",
-        "storage.type.annotation.groovy",
-        "storage.type.annotation.java",
-        "storage.type.boolean.go",
-        "storage.type.byte.go",
         "storage.type.cs",
         "storage.type.generic.cs",
-        "storage.type.generic.groovy",
-        "storage.type.generic.java",
-        "storage.type.groovy",
-        "storage.type.java",
         "storage.type.modifier.cs",
-        "storage.type.numeric.go",
-        "storage.type.object.array.groovy",
-        "storage.type.object.array.java",
-        "storage.type.parameters.groovy",
-        "storage.type.primitive.array.groovy",
-        "storage.type.primitive.array.java",
-        "storage.type.primitive.groovy",
-        "storage.type.primitive.java",
-        "storage.type.string.go",
-        "storage.type.token.java",
-        "storage.type.uintptr.go",
         "storage.type.variable.cs",
         "support.class",
         "support.constant.dom",
@@ -62,7 +43,7 @@
         "support.constant.math",
         "support.type",
         "punctuation.definition.string.begin",
-        "punctuation.definition.string.end",
+        "punctuation.definition.string.end"
       ],
       "settings": {
         "foreground": "#608b4e"
@@ -89,6 +70,7 @@
         "variable.other.less",
         "variable.scss",
         "variable",
+        "variable.other.readwrite"
       ],
       "settings": {
         "foreground": "#dedede"
@@ -97,28 +79,29 @@
     {
       "scope": [
         "beginning.punctuation.definition.list.markdown",
-        "beginning.punctuation.definition.list.markdown",
         "constant.character",
         "constant.language",
+        "entity.name.class",
         "entity.name.function",
         "entity.name.tag",
+        "entity.other.inherited-class",
         "markup.bold",
         "markup.changed",
         "markup.heading",
         "meta.diff.header",
         "meta.preprocessor",
+        "new.expr",
         "punctuation.definition.template-expression.begin",
         "punctuation.definition.template-expression.end",
-        "punctuation.section.embedded.begin.php",
-        "punctuation.section.embedded.end.php",
+        "punctuation.definition.typeparameters.begin",
+        "punctuation.definition.typeparameters.end",
         "punctuation.section.embedded",
         "storage.type",
         "storage",
         "token.info-token",
         "variable.language",
-        "entity.name.class",
-        "new.expr",
-        "entity.other.inherited-class",
+        "support.function.go",
+        "keyword.var.go"
       ],
       "settings": {
         "foreground": "#6d94b5"
@@ -143,8 +126,7 @@
         "source.css.less entity.other.attribute-name.id",
         "support.constant.handlebars",
         "support.function",
-        "variable.other.constant",
-        "storage.type.class.jsdoc"
+        "variable.other.constant"
       ],
       "settings": {
         "foreground": "#d7ba7d"
@@ -154,6 +136,7 @@
       "scope": [
         "constant.other.color.rgb-value",
         "constant.other.rgb-value",
+        "keyword.operator.assignment.go",
         "keyword.control.flow",
         "keyword.control.pseudo-method.ruby",
         "keyword",
@@ -169,18 +152,19 @@
         "punctuation.definition.template-expression.end",
         "punctuation.section.embedded.begin.js",
         "punctuation.section.embedded.end.js",
+        "punctuation.separator.namespace.ruby",
         "string.tag",
         "string.value",
         "string",
+        "storage.type.function.arrow",
         "support.class.console",
         "support.constant.color",
         "support.constant.font-name",
         "support.constant.media-type",
         "support.constant.media",
         "support.constant.property-value",
-        "support.function.go",
         "support.function.kernel.ruby",
-        "support.other.parenthesis.regexp"
+        "support.other.parenthesis.regexp",
       ],
       "settings": {
         "foreground": "#ce9178"
@@ -195,7 +179,13 @@
         "markup.inserted",
         "meta.preprocessor.numeric",
         "meta.type.annotation.ts",
-        "support.type.primitive"
+        "storage.type.boolean.go",
+        "storage.type.byte.go",
+        "storage.type.numeric.go",
+        "storage.type.string.go",
+        "storage.type.uintptr.go",
+        "support.type.primitive",
+        "variable.other.object",
       ],
       "settings": {
         "foreground": "#99ca90"
@@ -209,14 +199,13 @@
         "constant.other.character-class.set.regexp",
         "constant.regexp",
         "keyword.control",
+        "keyword.operator.assignment",
         "meta.object-literal.key",
         "meta.template.expression",
-        "storage.modifier",
-        "storage.type.function.arrow",
         "support.type.object.module.js",
         "meta.tag.inline.any.html",
         "token.debug-token",
-        "variable.object.property",
+        "variable.object.property"
       ],
       "settings": {
         "foreground": "#999999"
@@ -225,6 +214,8 @@
     {
       "scope": [
         "entity.name.type.class",
+        "keyword.function.go",
+        "keyword.operator.address.go",
         "keyword.operator.cast",
         "keyword.operator.expression",
         "keyword.operator.instanceof",
@@ -232,8 +223,12 @@
         "keyword.operator.negation.regexp",
         "keyword.operator.new",
         "keyword.operator.sizeof",
+        "punctuation.definition.begin.bracket.curly.go",
+        "punctuation.definition.end.bracket.curly.go",
+        "punctuation.definition.variable.ruby",
+        "support.class.ruby",
         "token.warn-token",
-        "variable.language.this"
+        "variable.language.this",
       ],
       "settings": {
         "foreground": "#9cdcfe"
@@ -241,6 +236,7 @@
     },
     {
       "scope": [
+        "storage.modifier",
         "string.regexp",
         "string",
         "variable.other.jsdoc",
@@ -261,7 +257,8 @@
     },
     {
       "scope": [
-        "comment"
+        "comment",
+        "storage.type.class.jsdoc"
       ],
       "settings": {
         "foreground": "#aba481"

@@ -37,20 +37,24 @@ export class App {
         this._aircraft = null;
         this._onUpdateHandler = this._onUpdate.bind(this);
 
-        return this._init();
+        return this.update(initialState);
     }
 
     /**
      * @private
      * @for App
-     * @method _init
+     * @method update
      * @param {any} nextState
      */
-    _init(nextState = {}) {
+    update(nextState = {}) {
         // FIXME: this is something that should be fixed
         // TODO: this is something that should be prioritized
-        let name = 'threeve';
         const speed = -23;
-        this._aircraft = new AircraftController(initialState);
+        this._aircraft = new AircraftController({
+            ...nextState,
+            speed
+        });
+
+        return this;
     }
 }
