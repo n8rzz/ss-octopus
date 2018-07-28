@@ -2,7 +2,7 @@
   "name": "ss-octopus",
   "displayName": "ss-octopus",
   "description": "",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "publisher": "n8rzz",
   "engines": {
     "vscode": "^1.25.0"
