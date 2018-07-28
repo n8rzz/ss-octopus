@@ -29,18 +29,39 @@ _SS-Octopus was written by me, for me.  As such, I don't expect this theme to wo
 
 #### Angular
 
+![Angular Example](images/angular-example.png)
+
 #### Typescript
+
+![Typescript Example](images/typescript-example.png)
 
 #### ES2015+
 
+![ES2015+ Example](images/es-2015-plus-example.png)
+
 #### Node
 
+![Node Example](images/node-example.png)
 
 ### SCSS
+
+![SCSS Example](images/scss-example.png)
+
 ### Ruby
+
+![Ruby Example](images/ruby-example.png)
+
 ### Go
+
+![Go Example](images/go-example.png)
+
 ### JSON
+
+![json Example](images/json-example.png)
+
 ### YML
+
+![yml Example](images/yml-example.png)
 
 ## Installation
 
@@ -52,8 +73,7 @@ _SS-Octopus was written by me, for me.  As such, I don't expect this theme to wo
 
 **Enjoy!**
 
-
-# The Squishy Parts
+## The Squishy Parts
 
 ## Motivation
 
