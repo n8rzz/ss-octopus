@@ -158,7 +158,6 @@
         "string.tag",
         "string.value",
         "string",
-        "support.class.console",
         "support.constant.color",
         "support.constant.font-name",
         "support.constant.media-type",
@@ -264,6 +263,14 @@
       ],
       "settings": {
         "foreground": "#aba481"
+      }
+    },
+    {
+      "scope": [
+        "support.class.console",
+      ],
+      "settings": {
+        "foreground": "#f7ef61"
       }
     }
   ],

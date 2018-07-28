@@ -7,6 +7,16 @@
   "engines": {
     "vscode": "^1.25.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/n8rzz/ss-octopus"
+  },
+  "keywords": [
+    "Theme",
+    "Dark Theme",
+    "SS-Octopus",
+    "mutued color"
+  ],
   "categories": [
     "Themes"
   ],
