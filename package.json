@@ -2,7 +2,7 @@
   "name": "ss-octopus",
   "displayName": "ss-octopus",
   "description": "A simple Dark theme for VSCode with a muted color palette and smart code highlighting",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "publisher": "n8rzz",
   "engines": {
     "vscode": "^1.25.0"
@@ -20,7 +20,7 @@
   "categories": [
     "Themes"
   ],
-  "icon": "./images/ss-octopus-logo.png",
+  "icon": "ss-octopus-logo.png",
   "contributes": {
     "themes": [
       {
