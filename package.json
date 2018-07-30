@@ -7,6 +7,11 @@
   "engines": {
     "vscode": "^1.25.0"
   },
+  "author": {
+    "name": "Nate Geslin",
+    "email": "teamtomkins23@gmail.com",
+    "url": "https://github.com/n8rzz/"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/n8rzz/ss-octopus.git"
