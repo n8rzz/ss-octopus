@@ -4,6 +4,10 @@ All notable changes to the "ss-octopus" extension will be documented in this fil
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.2.2] - 2018-07-30
+
+- Updates RREADME color palette image
+- Removes activitybar styles
 
 ## [1.2.1] - 2018-07-29
 

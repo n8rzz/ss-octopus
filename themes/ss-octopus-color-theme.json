@@ -295,8 +295,6 @@
     "gitDecoration.modifiedResourceForeground": "#608b4e",
     "gitDecoration.untrackedResourceForeground": "#d7ba7d",
     "list.dropBackground": "#383b3d",
-    "sideBarTitle.foreground": "#bbbbbb",
-    "statusBar.background": "#222222",
-    "statusBar.foreground": "#c6bf41",
+    "sideBarTitle.foreground": "#bbbbbb"
   }
 }
