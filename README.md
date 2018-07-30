@@ -1,4 +1,4 @@
-# SS-Octpus Theme
+# SS-Octopus Theme
 
 A Dark theme for [Visual Studio Code](http://code.visualstudio.com/).
 

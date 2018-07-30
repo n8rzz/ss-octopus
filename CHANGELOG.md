@@ -5,6 +5,9 @@ All notable changes to the "ss-octopus" extension will be documented in this fil
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
 
+## [1.2.1] - 2018-07-29
+
+- Updates spelling in README and updates color palette (Spelling is hard)
 
 ## [1.2.0] - 2018-07-29
 
