@@ -9,8 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/n8rzz/ss-octopus"
+    "url": "https://github.com/n8rzz/ss-octopus.git"
   },
+  "bugs": "https://github.com/n8rzz/ss-octopus/issues",
   "keywords": [
     "Theme",
     "Dark Theme",
