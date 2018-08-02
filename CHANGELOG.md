@@ -4,16 +4,20 @@ All notable changes to the "ss-octopus" extension will be documented in this fil
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [1.2.2] - 2018-07-30
+## [1.3.4] - 2018-08-01
+
+- [#1](https://github.com/n8rzz/ss-octopus/issues/1) Updates highlight bg/fg for active selection and found instances
+
+## [1.3.2] - 2018-07-30
 
 - Updates RREADME color palette image
 - Removes activitybar styles
 
-## [1.2.1] - 2018-07-29
+## [1.3.1] - 2018-07-29
 
 - Updates spelling in README and updates color palette (Spelling is hard)
 
-## [1.2.0] - 2018-07-29
+## [1.3.0] - 2018-07-29
 
 - Updates SS-Octopus logo
 
