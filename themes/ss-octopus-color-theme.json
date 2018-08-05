@@ -299,7 +299,6 @@
     "statusBar.background": "#222222",
     "statusBar.foreground": "#c6bf41",
     "statusBar.noFolderBackground": "#333333",
-    // "editor.findMatchHighlightBackground": "#ff96f233",
     "editor.findMatchBackground": "#ffffff01",
     "editor.findMatchBorder": "#9735c566",
     "editor.findMatchHighlightBackground": "#4e315355",
@@ -308,8 +307,8 @@
     "editor.selectionHighlightBackground": "#0b582777",
     "editor.selectionHighlightBorder": "#5aca7699",
     "editor.wordHighlightBackground": "#00ffff11",
-    // "editor.wordHighlightBorder": "#5aca7699",
+    "editor.wordHighlightBorder": "#5aca7699",
     "editor.wordHighlightStrongBackground": "#00ffff40",
-    // "editor.wordHighlightStrongBorder": "#5aca7699",
+    "editor.wordHighlightStrongBorder": "#5aca7699",
   }
 }

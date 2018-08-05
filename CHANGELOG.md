@@ -4,6 +4,10 @@ All notable changes to the "ss-octopus" extension will be documented in this fil
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.4.1] - 2018-08-05
+
+- Updates readme with information on how to customize selection styles in `settings.json` file
+
 ## [1.4.0] - 2018-08-03
 
 - [#1](https://github.com/n8rzz/ss-octopus/issues/1) Totally re-works selection highlight colors for better contrast
