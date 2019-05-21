@@ -1,39 +1,44 @@
 {
-  "name": "ss-octopus",
-  "displayName": "ss-octopus",
-  "description": "A simple Dark theme for VSCode with a muted color palette and smart code highlighting",
-  "version": "1.5.1",
-  "publisher": "n8rzz",
-  "engines": {
-    "vscode": "^1.25.0"
-  },
-  "author": {
-    "name": "Nate Geslin",
-    "email": "teamtomkins23@gmail.com",
-    "url": "https://github.com/n8rzz/"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/n8rzz/ss-octopus.git"
-  },
-  "bugs": "https://github.com/n8rzz/ss-octopus/issues",
-  "keywords": [
-    "Theme",
-    "Dark Theme",
-    "SS-Octopus",
-    "mutued color"
-  ],
-  "categories": [
-    "Themes"
-  ],
-  "icon": "ss-octopus-logo.png",
-  "contributes": {
-    "themes": [
-      {
-        "label": "ss-octopus",
-        "uiTheme": "vs-dark",
-        "path": "./themes/ss-octopus-color-theme.json"
-      }
-    ]
-  }
+	"name": "ss-octopus",
+	"displayName": "ss-octopus",
+	"description": "A simple Dark theme for VSCode with a muted color palette and smart code highlighting",
+	"version": "1.4.2",
+	"publisher": "n8rzz",
+	"engines": {
+		"vscode": "^1.25.0"
+	},
+	"author": {
+		"name": "Nate Geslin",
+		"email": "teamtomkins23@gmail.com",
+		"url": "https://github.com/n8rzz/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/n8rzz/ss-octopus.git"
+	},
+	"bugs": "https://github.com/n8rzz/ss-octopus/issues",
+	"keywords": [
+		"Theme",
+		"Dark Theme",
+		"SS-Octopus",
+		"mutued color"
+	],
+	"categories": [
+		"Themes"
+	],
+	"icon": "ss-octopus-logo.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "ss-octopus",
+				"uiTheme": "vs-dark",
+				"path": "./themes/ss-octopus-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "062d98d3-af00-4670-b8ad-b31e5a467dcc",
+		"publisherDisplayName": "n8rzz",
+		"publisherId": "77db8ea1-b4eb-4e87-ac4a-39f8ad61ab58"
+	}
 }

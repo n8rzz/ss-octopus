@@ -297,20 +297,15 @@
     "gitDecoration.untrackedResourceForeground": "#d7ba7d",
     "list.dropBackground": "#383b3d",
     "sideBarTitle.foreground": "#bbbbbb",
-
     "statusBar.background": "#222222",
     "statusBar.foreground": "#c6bf41",
     "statusBar.noFolderBackground": "#333333",
-    "editor.findMatchBackground": "#ffffff01",
-    "editor.findMatchBorder": "#9735c566",
+    "editor.findMatchBackground": "#0b5827aa",
+    "editor.findMatchBorder": "#569cd699",
     "editor.findMatchHighlightBackground": "#4e315355",
     "editor.findMatchHighlightBorder": "#f700ff22",
-    "editor.selectionBackground": "#0b5827aa",
-    "editor.selectionHighlightBackground": "#0b582777",
-    "editor.selectionHighlightBorder": "#5aca7699",
+    "editor.selectionBackground": "#569cd633",
     "editor.wordHighlightBackground": "#00ffff11",
-    "editor.wordHighlightBorder": "#5aca7699",
-    "editor.wordHighlightStrongBackground": "#00ffff40",
-    "editor.wordHighlightStrongBorder": "#5aca7699",
+    "editor.wordHighlightBorder": "#5aca7699"
   }
 }
