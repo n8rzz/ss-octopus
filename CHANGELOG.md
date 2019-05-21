@@ -2,7 +2,9 @@
 
 All notable changes to the "ss-octopus" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [1.4.2] - 2019-05-20
+
+- Updates selection and highlight colors so foreground with dark text is still readable
 
 ## [1.4.1] - 2018-08-05
 
