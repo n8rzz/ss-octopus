@@ -112,6 +112,7 @@
     {
       "scope": [
         "constant.character.escape",
+        "entity.name.function.member",
         "entity.name.tag.css",
         "entity.other.attribute-name.attribute.scss",
         "entity.other.attribute-name.class.css",
@@ -128,6 +129,9 @@
         "source.css.less entity.other.attribute-name.id",
         "support.constant.handlebars",
         "support.function",
+        "support.function.console",
+        "support.function.console.js",
+        "support.function.console.ts",
         "variable.other.constant"
       ],
       "settings": {
@@ -270,6 +274,8 @@
     {
       "scope": [
         "support.class.console",
+        "support.class.console.js",
+        "support.class.console.ts",
       ],
       "settings": {
         "foreground": "#f7ef61"

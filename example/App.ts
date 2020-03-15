@@ -37,6 +37,8 @@ export class App {
     }
 
     public hasDollarSign(value: string): boolean {
+        console.log('log me out!');
+
         return value.indexOf('$') !== -1;
     }
 

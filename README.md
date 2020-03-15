@@ -73,6 +73,26 @@ _SS-Octopus was written by me, for me.  As such, I don't expect this theme to wo
 
 **Enjoy!**
 
+---
+
+## User Settings
+
+As of March 2020, some settings within VSCode are starting to conflict with the colors provided by this theme:
+
+### Incorrect Color
+
+![incorrect-color-without-settings-override](images/incorrect-color-without-settings-override.png)
+
+### Correct Color
+
+![correct-color-with-settings-override](images/correct-color-with-settings-override.png)
+
+Good news, there is a simple fix!  In order to get back to the correct colors, a new setting must be added to your `settings.json` file:
+
+```json
+"editor.semanticHighlighting.enabled": false
+```
+
 ## Selection Styles
 
 Coloring a selection in VSCode is tricky.  I've done my best to make the selection styles work with the theme, however, it's not perfect.  If you wish to make some tweaks of your own, feel free to modify the following `workbench.colorCustomizations` within your `settings.json` file.
@@ -106,6 +126,7 @@ I wanted to make a theme that satisfied some of the pain points I've run into wi
 ### Why ss-octopus
 
 Two (bad) reasons:
+
 1) For some reason I like to name some of my projects as if they were ships, prefixed with `ss` and named after some creature of the sea
 1) I previously wrote an unpublished theme for the [Atom](https://atom.io/) editor that had the same name
 

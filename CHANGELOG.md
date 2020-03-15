@@ -1,6 +1,8 @@
 # Change Log
 
-All notable changes to the "ss-octopus" extension will be documented in this file.
+## [1.4.3] - 2020-03-15
+
+- Updates README to include information about a user setting causing conflicts in tokenization
 
 ## [1.4.2] - 2019-05-20
 
