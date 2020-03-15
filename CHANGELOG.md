@@ -1,6 +1,6 @@
 # Change Log
 
-## [1.4.3] - 2020-03-15
+## [1.5.2] - 2020-03-15
 
 - Updates README to include information about a user setting causing conflicts in tokenization
 
